@@ -84,7 +84,7 @@ struct MainView: View {
             }.ignoresSafeArea() // VStack
                 .background(Color.thema)
             
-        } // AvailableNavigationStack
+        }.tint(.thema) // AvailableNavigationStack
     }
 }
 

@@ -15,8 +15,8 @@ struct InputTextView: View {
     var body: some View {
         
         TextEditor(text: $text)
-            .frame(height:180)
-            .frame(maxHeight: 180)
+            .frame(height: UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight ? 40 : 80)
+            .frame(maxHeight:  UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight ? 40 : 80)
             .cornerRadius(10)
             .font(.title)
             .focused($isActive)
@@ -25,7 +25,7 @@ struct InputTextView: View {
                     Spacer()
                     Button("閉じる") {
                         isActive = false
-                    }.foregroundColor(.thema)
+                    }
                 }
             }
     }
