@@ -14,6 +14,9 @@
 		123008782A4A9B3D00A43ADF /* BigMojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008772A4A9B3D00A43ADF /* BigMojiTests.swift */; };
 		123008822A4A9B3D00A43ADF /* BigMojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008812A4A9B3D00A43ADF /* BigMojiUITests.swift */; };
 		123008842A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008832A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift */; };
+		2DAD490658AFA65E28A34D56 /* Pods_BigMojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */; };
+		3F5AAAAB35651F3838E6628D /* Pods_BigMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */; };
+		874E7CFCAF60E414AE341E45 /* Pods_BigMoji_BigMojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE26EECE4C2B944DD8738C1 /* Pods-BigMoji-BigMojiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.release.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12021B066F19F6F49EA9D093 /* Pods-BigMoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji.release.xcconfig"; path = "Target Support Files/Pods-BigMoji/Pods-BigMoji.release.xcconfig"; sourceTree = "<group>"; };
 		123008632A4A9B3C00A43ADF /* BigMoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigMoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		123008662A4A9B3C00A43ADF /* BigMojiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMojiApp.swift; sourceTree = "<group>"; };
 		123008682A4A9B3C00A43ADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,14 @@
 		1230087D2A4A9B3D00A43ADF /* BigMojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		123008812A4A9B3D00A43ADF /* BigMojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMojiUITests.swift; sourceTree = "<group>"; };
 		123008832A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMojiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		123008902A4A9F3100A43ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8436EEF972825CC5BE3F4D91 /* Pods-BigMoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji/Pods-BigMoji.debug.xcconfig"; sourceTree = "<group>"; };
+		B4ED43D767BF9D32ECA30580 /* Pods-BigMojiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMojiTests.release.xcconfig"; path = "Target Support Files/Pods-BigMojiTests/Pods-BigMojiTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4AFFFF9CBABBE1A65B7B7F2 /* Pods-BigMojiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMojiTests.debug.xcconfig"; path = "Target Support Files/Pods-BigMojiTests/Pods-BigMojiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji_BigMojiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5AAAAB35651F3838E6628D /* Pods_BigMoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAD490658AFA65E28A34D56 /* Pods_BigMojiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874E7CFCAF60E414AE341E45 /* Pods_BigMoji_BigMojiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,8 @@
 				123008762A4A9B3D00A43ADF /* BigMojiTests */,
 				123008802A4A9B3D00A43ADF /* BigMojiUITests */,
 				123008642A4A9B3C00A43ADF /* Products */,
+				3DD90BB8213749F03F808CEA /* Pods */,
+				7AEAF4FD7AD919DA6EBB17D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +112,7 @@
 		123008652A4A9B3C00A43ADF /* BigMoji */ = {
 			isa = PBXGroup;
 			children = (
+				123008902A4A9F3100A43ADF /* Info.plist */,
 				123008662A4A9B3C00A43ADF /* BigMojiApp.swift */,
 				123008682A4A9B3C00A43ADF /* ContentView.swift */,
 				1230086A2A4A9B3D00A43ADF /* Assets.xcassets */,
@@ -127,6 +146,29 @@
 			path = BigMojiUITests;
 			sourceTree = "<group>";
 		};
+		3DD90BB8213749F03F808CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8436EEF972825CC5BE3F4D91 /* Pods-BigMoji.debug.xcconfig */,
+				12021B066F19F6F49EA9D093 /* Pods-BigMoji.release.xcconfig */,
+				2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */,
+				0DE26EECE4C2B944DD8738C1 /* Pods-BigMoji-BigMojiUITests.release.xcconfig */,
+				E4AFFFF9CBABBE1A65B7B7F2 /* Pods-BigMojiTests.debug.xcconfig */,
+				B4ED43D767BF9D32ECA30580 /* Pods-BigMojiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7AEAF4FD7AD919DA6EBB17D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */,
+				F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */,
+				5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 123008872A4A9B3D00A43ADF /* Build configuration list for PBXNativeTarget "BigMoji" */;
 			buildPhases = (
+				0CFD43A7D33D649EF0FFFF43 /* [CP] Check Pods Manifest.lock */,
 				1230085F2A4A9B3C00A43ADF /* Sources */,
 				123008602A4A9B3C00A43ADF /* Frameworks */,
 				123008612A4A9B3C00A43ADF /* Resources */,
+				12A6A843A8414087D4C8385D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1230088A2A4A9B3D00A43ADF /* Build configuration list for PBXNativeTarget "BigMojiTests" */;
 			buildPhases = (
+				EAD334E696B1312394BFDBBE /* [CP] Check Pods Manifest.lock */,
 				1230086F2A4A9B3D00A43ADF /* Sources */,
 				123008702A4A9B3D00A43ADF /* Frameworks */,
 				123008712A4A9B3D00A43ADF /* Resources */,
+				E56240CF19A2235545762914 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1230088D2A4A9B3D00A43ADF /* Build configuration list for PBXNativeTarget "BigMojiUITests" */;
 			buildPhases = (
+				FC3F5E0D66238707686DA4D9 /* [CP] Check Pods Manifest.lock */,
 				123008792A4A9B3D00A43ADF /* Sources */,
 				1230087A2A4A9B3D00A43ADF /* Frameworks */,
 				1230087B2A4A9B3D00A43ADF /* Resources */,
+				3B60B85800C98C4B14D4AA54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +299,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFD43A7D33D649EF0FFFF43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigMoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12A6A843A8414087D4C8385D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigMoji/Pods-BigMoji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigMoji/Pods-BigMoji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BigMoji/Pods-BigMoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B60B85800C98C4B14D4AA54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E56240CF19A2235545762914 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigMojiTests/Pods-BigMojiTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigMojiTests/Pods-BigMojiTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BigMojiTests/Pods-BigMojiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD334E696B1312394BFDBBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigMojiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3F5E0D66238707686DA4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigMoji-BigMojiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1230085F2A4A9B3C00A43ADF /* Sources */ = {
@@ -411,6 +579,7 @@
 		};
 		123008882A4A9B3D00A43ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8436EEF972825CC5BE3F4D91 /* Pods-BigMoji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,11 +589,13 @@
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BigMoji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,14 +603,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.BigMoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		123008892A4A9B3D00A43ADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12021B066F19F6F49EA9D093 /* Pods-BigMoji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,11 +624,13 @@
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BigMoji/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,14 +638,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.BigMoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1230088B2A4A9B3D00A43ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AFFFF9CBABBE1A65B7B7F2 /* Pods-BigMojiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +670,7 @@
 		};
 		1230088C2A4A9B3D00A43ADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4ED43D767BF9D32ECA30580 /* Pods-BigMojiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +691,7 @@
 		};
 		1230088E2A4A9B3D00A43ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +710,7 @@
 		};
 		1230088F2A4A9B3D00A43ADF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE26EECE4C2B944DD8738C1 /* Pods-BigMoji-BigMojiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
