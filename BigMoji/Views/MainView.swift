@@ -13,11 +13,10 @@ struct MainView: View {
     @State var isPresented:Bool = false
     @State var selectedTextColor:SelectColors = SelectColors.black
     @State var selectedBackColor:SelectColors = SelectColors.white
-
     
     var body: some View {
         AvailableNavigationStack {
-            VStack{
+            VStack(spacing:0){
                 
                 DisplayiPhonePreView(text: text, selectedTextColor: selectedTextColor, selectedBackColor:selectedBackColor)
                 
@@ -79,7 +78,11 @@ struct MainView: View {
                         .listRowSeparator(.hidden)
                     
                 }.cornerRadius(20) // List
+                    .padding(.top,20)
                     .listStyle(.grouped)
+                    .shadow(color: Color.list,radius: 0, x: 0, y: 15)
+                
+                AdMobBannerView().frame(height: 60)
                 
             }.ignoresSafeArea() // VStack
                 .background(Color.thema)

@@ -11,6 +11,7 @@ struct InputTextView: View {
     
     @Binding var text:String
     @FocusState var isActive:Bool
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
     
     var body: some View {
         
@@ -26,6 +27,12 @@ struct InputTextView: View {
                     Button("閉じる") {
                         isActive = false
                     }
+                }
+            }
+            .overlay {
+                if colorScheme == .dark {
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.gray,lineWidth: 2)
                 }
             }
     }

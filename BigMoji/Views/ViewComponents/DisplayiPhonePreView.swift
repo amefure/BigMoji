@@ -28,6 +28,7 @@ struct DisplayiPhonePreView: View {
                 .zIndex(1)
             
             RoundedRectangle(cornerRadius: 60)
+                .fill(Color(hexString: "#333333"))
                 .frame(width: 40,height: 10)
                 .rotationEffect(Angle(degrees: 90))
                 .multilineTextAlignment(.trailing)
