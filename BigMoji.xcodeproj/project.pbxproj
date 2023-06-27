@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		123008672A4A9B3C00A43ADF /* BigMojiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008662A4A9B3C00A43ADF /* BigMojiApp.swift */; };
-		123008692A4A9B3C00A43ADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008682A4A9B3C00A43ADF /* ContentView.swift */; };
+		123008692A4A9B3C00A43ADF /* DisplayTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008682A4A9B3C00A43ADF /* DisplayTextView.swift */; };
 		1230086B2A4A9B3D00A43ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1230086A2A4A9B3D00A43ADF /* Assets.xcassets */; };
 		1230086E2A4A9B3D00A43ADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1230086D2A4A9B3D00A43ADF /* Preview Assets.xcassets */; };
 		123008782A4A9B3D00A43ADF /* BigMojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008772A4A9B3D00A43ADF /* BigMojiTests.swift */; };
 		123008822A4A9B3D00A43ADF /* BigMojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008812A4A9B3D00A43ADF /* BigMojiUITests.swift */; };
 		123008842A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008832A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift */; };
+		123008922A4AA4F900A43ADF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008912A4AA4F900A43ADF /* MainView.swift */; };
+		123008952A4AB5BB00A43ADF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008942A4AB5BB00A43ADF /* Color.swift */; };
+		123008972A4ABB3B00A43ADF /* AvailableNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008962A4ABB3B00A43ADF /* AvailableNavigationStack.swift */; };
 		2DAD490658AFA65E28A34D56 /* Pods_BigMojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */; };
 		3F5AAAAB35651F3838E6628D /* Pods_BigMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */; };
 		874E7CFCAF60E414AE341E45 /* Pods_BigMoji_BigMojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */; };
@@ -41,7 +44,7 @@
 		12021B066F19F6F49EA9D093 /* Pods-BigMoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji.release.xcconfig"; path = "Target Support Files/Pods-BigMoji/Pods-BigMoji.release.xcconfig"; sourceTree = "<group>"; };
 		123008632A4A9B3C00A43ADF /* BigMoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigMoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		123008662A4A9B3C00A43ADF /* BigMojiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMojiApp.swift; sourceTree = "<group>"; };
-		123008682A4A9B3C00A43ADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		123008682A4A9B3C00A43ADF /* DisplayTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTextView.swift; sourceTree = "<group>"; };
 		1230086A2A4A9B3D00A43ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1230086D2A4A9B3D00A43ADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		123008732A4A9B3D00A43ADF /* BigMojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +53,9 @@
 		123008812A4A9B3D00A43ADF /* BigMojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMojiUITests.swift; sourceTree = "<group>"; };
 		123008832A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMojiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		123008902A4A9F3100A43ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		123008912A4AA4F900A43ADF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		123008942A4AB5BB00A43ADF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		123008962A4ABB3B00A43ADF /* AvailableNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableNavigationStack.swift; sourceTree = "<group>"; };
 		13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +120,9 @@
 			children = (
 				123008902A4A9F3100A43ADF /* Info.plist */,
 				123008662A4A9B3C00A43ADF /* BigMojiApp.swift */,
-				123008682A4A9B3C00A43ADF /* ContentView.swift */,
+				123008682A4A9B3C00A43ADF /* DisplayTextView.swift */,
+				123008912A4AA4F900A43ADF /* MainView.swift */,
+				123008932A4AB5A900A43ADF /* Extensions */,
 				1230086A2A4A9B3D00A43ADF /* Assets.xcassets */,
 				1230086C2A4A9B3D00A43ADF /* Preview Content */,
 			);
@@ -144,6 +152,15 @@
 				123008832A4A9B3D00A43ADF /* BigMojiUITestsLaunchTests.swift */,
 			);
 			path = BigMojiUITests;
+			sourceTree = "<group>";
+		};
+		123008932A4AB5A900A43ADF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				123008942A4AB5BB00A43ADF /* Color.swift */,
+				123008962A4ABB3B00A43ADF /* AvailableNavigationStack.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		3DD90BB8213749F03F808CEA /* Pods */ = {
@@ -425,7 +442,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123008692A4A9B3C00A43ADF /* ContentView.swift in Sources */,
+				123008692A4A9B3C00A43ADF /* DisplayTextView.swift in Sources */,
+				123008952A4AB5BB00A43ADF /* Color.swift in Sources */,
+				123008922A4AA4F900A43ADF /* MainView.swift in Sources */,
+				123008972A4ABB3B00A43ADF /* AvailableNavigationStack.swift in Sources */,
 				123008672A4A9B3C00A43ADF /* BigMojiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
