@@ -11,6 +11,7 @@ struct DisplayTextView: View {
     
     let text:String
     let selectedTextColor:SelectColors
+    let selectedBackColor:SelectColors
     
     var body: some View {
         
@@ -19,7 +20,7 @@ struct DisplayTextView: View {
             .minimumScaleFactor(0.1)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .foregroundColor(selectedTextColor.color)
-            .ignoresSafeArea()
             .padding()
+            .background(selectedBackColor.color)
     }
 }
