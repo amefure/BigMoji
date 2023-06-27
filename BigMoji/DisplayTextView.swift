@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct DisplayTextView: View {
+    
     let text:String
+    let selectedTextColor:SelectColors
     
     var body: some View {
-        VStack {
-            Text(text)
-                .font(.system(size: 400))
-                .minimumScaleFactor(0.1)
-                .multilineTextAlignment(.center)
-                .lineLimit(nil)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-            
-        }.ignoresSafeArea()
-        .padding()
+        
+        Text(text)
+            .font(.system(size: 400))
+            .minimumScaleFactor(0.1)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .foregroundColor(selectedTextColor.color)
+            .ignoresSafeArea()
+            .padding()
     }
 }
