@@ -9,6 +9,8 @@ import SwiftUI
 
 struct InputTextView: View {
     
+    private let deviceSizeVM = DeviceSizeViewModel()
+    
     @Binding var text:String
     @FocusState var isActive:Bool
     @Environment(\.colorScheme) var colorScheme: ColorScheme
@@ -16,8 +18,8 @@ struct InputTextView: View {
     var body: some View {
         
         TextEditor(text: $text)
-            .frame(height: UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight ? 40 : 80)
-            .frame(maxHeight:  UIDevice.current.orientation == .landscapeLeft || UIDevice.current.orientation == .landscapeRight ? 40 : 80)
+            .frame(height: deviceSizeVM.isLandscape ? 40 : 100)
+            .frame(maxHeight:  deviceSizeVM.isLandscape ? 40 : 100)
             .cornerRadius(10)
             .font(.title)
             .focused($isActive)

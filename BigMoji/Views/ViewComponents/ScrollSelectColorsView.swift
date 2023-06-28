@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ScrollSelectColorsView: View {
     
+    private let deviceSizeVM = DeviceSizeViewModel()
     @Binding var selectedColor:SelectColors
     
     var body: some View {
@@ -29,6 +30,6 @@ struct ScrollSelectColorsView: View {
                     }
                 }
             }
-        }
+        }.frame(height: deviceSizeVM.isSESize ? 35 : 40)
     }
 }

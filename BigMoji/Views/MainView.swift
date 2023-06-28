@@ -31,11 +31,13 @@ struct MainView: View {
                         ScrollSelectColorsView(selectedColor: $selectedTextColor)
                     }.listRowBackground(Color.clear)
                         .listRowSeparator(.hidden)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
                     
                     Section("バックカラー"){
                         ScrollSelectColorsView(selectedColor: $selectedBackColor)
                     }.listRowBackground(Color.clear)
                         .listRowSeparator(.hidden)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
                     
                     
                     HStack{
