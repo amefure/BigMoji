@@ -13,12 +13,13 @@ struct MainView: View {
     @State var isPresented:Bool = false
     @State var selectedTextColor:SelectColors = SelectColors.black
     @State var selectedBackColor:SelectColors = SelectColors.white
+    @State var weight:FontWeights = .light
     
     var body: some View {
         AvailableNavigationStack {
             VStack(spacing:0){
                 
-                DisplayiPhonePreView(text: text, selectedTextColor: selectedTextColor, selectedBackColor:selectedBackColor)
+                DisplayiPhonePreView(text: text, selectedTextColor: selectedTextColor, selectedBackColor:selectedBackColor, weight: weight)
                 
                 List{
                     
@@ -35,6 +36,13 @@ struct MainView: View {
                     
                     Section("バックカラー"){
                         ScrollSelectColorsView(selectedColor: $selectedBackColor)
+                    }.listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
+                    
+                    Section("フォント"){
+                        
+                        SelectWeightView(weight: $weight)
                     }.listRowBackground(Color.clear)
                         .listRowSeparator(.hidden)
                         .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
@@ -58,11 +66,11 @@ struct MainView: View {
                                     .cornerRadius(10)
                                     .shadow(radius: 5)
                             }.navigationDestination(isPresented: $isPresented) {
-                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor)
+                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight)
                             }.listRowBackground(Color.clear).listRowSeparator(.hidden)
                         }else{
                             NavigationLink(isActive: $isPresented) {
-                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor)
+                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight)
                             } label: {
                                 Text("Show")
                                     .padding()

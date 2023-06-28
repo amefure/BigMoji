@@ -24,6 +24,8 @@
 		123008A62A4B222800A43ADF /* AdMobViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008A52A4B222800A43ADF /* AdMobViewModels.swift */; };
 		123008A82A4B22F500A43ADF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 123008A72A4B22F500A43ADF /* GoogleService-Info.plist */; };
 		123008AA2A4BA8DB00A43ADF /* DeviceSizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008A92A4BA8DB00A43ADF /* DeviceSizeViewModel.swift */; };
+		123008AC2A4BC9C500A43ADF /* FontTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008AB2A4BC9C500A43ADF /* FontTypes.swift */; };
+		123008AE2A4BCAFA00A43ADF /* SelectWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008AD2A4BCAFA00A43ADF /* SelectWeightView.swift */; };
 		2DAD490658AFA65E28A34D56 /* Pods_BigMojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */; };
 		3F5AAAAB35651F3838E6628D /* Pods_BigMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */; };
 		874E7CFCAF60E414AE341E45 /* Pods_BigMoji_BigMojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */; };
@@ -70,6 +72,8 @@
 		123008A52A4B222800A43ADF /* AdMobViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobViewModels.swift; sourceTree = "<group>"; };
 		123008A72A4B22F500A43ADF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		123008A92A4BA8DB00A43ADF /* DeviceSizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSizeViewModel.swift; sourceTree = "<group>"; };
+		123008AB2A4BC9C500A43ADF /* FontTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypes.swift; sourceTree = "<group>"; };
+		123008AD2A4BCAFA00A43ADF /* SelectWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWeightView.swift; sourceTree = "<group>"; };
 		13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				123008992A4ABFEF00A43ADF /* SelectColors.swift */,
+				123008AB2A4BC9C500A43ADF /* FontTypes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				1230089F2A4B026400A43ADF /* DisplayiPhonePreView.swift */,
 				123008A12A4B03AB00A43ADF /* InputTextView.swift */,
 				1230089C2A4B012C00A43ADF /* ScrollSelectColorsView.swift */,
+				123008AD2A4BCAFA00A43ADF /* SelectWeightView.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -502,6 +508,8 @@
 				123008692A4A9B3C00A43ADF /* DisplayTextView.swift in Sources */,
 				123008952A4AB5BB00A43ADF /* Color.swift in Sources */,
 				123008922A4AA4F900A43ADF /* MainView.swift in Sources */,
+				123008AE2A4BCAFA00A43ADF /* SelectWeightView.swift in Sources */,
+				123008AC2A4BC9C500A43ADF /* FontTypes.swift in Sources */,
 				123008972A4ABB3B00A43ADF /* AvailableNavigationStack.swift in Sources */,
 				123008A22A4B03AB00A43ADF /* InputTextView.swift in Sources */,
 				123008672A4A9B3C00A43ADF /* BigMojiApp.swift in Sources */,

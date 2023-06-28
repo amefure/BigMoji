@@ -12,10 +12,12 @@ struct DisplayTextView: View {
     let text:String
     let selectedTextColor:SelectColors
     let selectedBackColor:SelectColors
+    let weight:FontWeights
     
     var body: some View {
         
         Text(text)
+            .fontWeight(weight.weight)
             .font(.system(size: 400))
             .minimumScaleFactor(0.1)
             .frame(maxWidth: .infinity, maxHeight: .infinity)

@@ -14,11 +14,13 @@ struct DisplayiPhonePreView: View {
     let text:String
     let selectedTextColor:SelectColors
     let selectedBackColor:SelectColors
+    let weight:FontWeights
     
     var body: some View {
         ZStack{
             
             Text(text)
+                .fontWeight(weight.weight)
                 .padding(20)
                 .frame(width: 330,height: 140)
                 .font(.system(size: 110))
