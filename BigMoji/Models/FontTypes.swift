@@ -22,3 +22,23 @@ enum FontWeights:String,CaseIterable,Identifiable{
         }
     }
 }
+
+
+enum FontFamilys:String,CaseIterable,Identifiable{
+    var id:String { self.rawValue }
+    
+    case monospaced = "スペース"
+    case rounded = "ゴシック体"
+    case serif = "明朝体"
+    
+    var design: Font.Design {
+        switch self {
+        case .monospaced:
+            return .monospaced
+        case .rounded:
+            return .rounded
+        case .serif:
+            return .serif
+        }
+    }
+}

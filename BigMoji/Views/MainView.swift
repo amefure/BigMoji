@@ -14,12 +14,13 @@ struct MainView: View {
     @State var selectedTextColor:SelectColors = SelectColors.black
     @State var selectedBackColor:SelectColors = SelectColors.white
     @State var weight:FontWeights = .light
+    @State var design:FontFamilys = .rounded
     
     var body: some View {
         AvailableNavigationStack {
             VStack(spacing:0){
                 
-                DisplayiPhonePreView(text: text, selectedTextColor: selectedTextColor, selectedBackColor:selectedBackColor, weight: weight)
+                DisplayiPhonePreView(text: text, selectedTextColor: selectedTextColor, selectedBackColor:selectedBackColor, weight: weight,design: design)
                 
                 List{
                     
@@ -46,6 +47,12 @@ struct MainView: View {
                         .listRowSeparator(.hidden)
                         .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
                     
+                    Section("デザイン"){
+                        SelectFamilyView(design: $design)
+                    }.listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
+                    
                     
                     HStack{
                         
@@ -65,11 +72,11 @@ struct MainView: View {
                                     .cornerRadius(10)
                                     .shadow(radius: 5)
                             }.navigationDestination(isPresented: $isPresented) {
-                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight)
+                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight,design: design)
                             }.listRowBackground(Color.clear).listRowSeparator(.hidden)
                         }else{
                             NavigationLink(isActive: $isPresented) {
-                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight)
+                                DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight,design: design)
                             } label: {
                                 Text("Show")
                                     .padding()
