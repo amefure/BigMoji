@@ -19,6 +19,7 @@ enum SelectColors :String,CaseIterable,Identifiable{
     case gray
     case black
     case white
+    case custom
     
     var color: Color {
         switch self {
@@ -40,6 +41,8 @@ enum SelectColors :String,CaseIterable,Identifiable{
             return Color.black
         case .white:
             return Color.white
+        case .custom:
+            return Color.clear
         }
     }
 }

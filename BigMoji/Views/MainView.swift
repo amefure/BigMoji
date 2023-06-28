@@ -38,7 +38,7 @@ struct MainView: View {
                         .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
                     
                     Section("バックカラー"){
-                        ScrollSelectColorsView(selectedColor: $selectedBackColor)
+                        ScrollSelectColorsView(selectedColor: $selectedBackColor,isBackCall:true)
                     }.listRowBackground(Color.clear)
                         .listRowSeparator(.hidden)
                         .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))

@@ -23,8 +23,8 @@ struct DisplayTextView: View {
             .font(.system(size: 400))
             .minimumScaleFactor(0.1)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .foregroundColor(selectedTextColor.color)
+            .foregroundColor(selectedTextColor != .custom ? selectedTextColor.color : Color(hexString:UserDefaultsViewModel().getFontColor()))
             .padding()
-            .background(selectedBackColor.color)
+            .background(selectedBackColor != .custom ? selectedBackColor.color : Color(hexString: UserDefaultsViewModel().getBackColor()))
     }
 }
