@@ -47,7 +47,7 @@ enum FontCustomFamilys:String,CaseIterable,Identifiable{
     var id:String { self.rawValue }
     
     case AcademyEngravedLetPlain = "白抜き"
-    case GillSans_UltraBold = "極太(boldのみ)"
+    case GillSans_UltraBold = "極太(bold)"
     case SnellRoundhand_Black = "崩し文字"
     
     var design: Font {

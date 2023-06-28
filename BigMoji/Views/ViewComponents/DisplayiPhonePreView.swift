@@ -39,7 +39,7 @@ struct DisplayiPhonePreView: View {
                 .rotationEffect(Angle(degrees: 90))
                 .multilineTextAlignment(.trailing)
                 .zIndex(2)
-                .offset(x: 330 / 2 - 15 ,y: deviceSizeVM.isLandscape || deviceSizeVM.isSESize ?  5 : 30)
+                .offset(x: 330 / 2 - 15 ,y: deviceSizeVM.isLandscape || deviceSizeVM.isSESize ?  10 : 30)
             
             RoundedRectangle(cornerRadius: 25)
                 .stroke(Color(hexString: "#333333"),lineWidth: 10)

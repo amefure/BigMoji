@@ -1,20 +1,20 @@
 //
-//  SelectFamilyView.swift
+//  SelectCustomFamilyView.swift
 //  BigMoji
 //
-//  Created by t&a on 2023/06/28.
+//  Created by t&a on 2023/06/29.
 //
 
 import SwiftUI
 
-struct SelectFamilyView: View {
+struct SelectCustomFamilyView: View {
     
     @Binding var design:Font
     
     var body: some View {
         HStack{
             Spacer()
-            ForEach(FontFamilys.allCases){ design in
+            ForEach(FontCustomFamilys.allCases){ design in
                 Button {
                     self.design = design.design
                 } label: {
@@ -30,3 +30,4 @@ struct SelectFamilyView: View {
         }
     }
 }
+

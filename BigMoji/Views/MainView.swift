@@ -55,6 +55,12 @@ struct MainView: View {
                         .listRowSeparator(.hidden)
                         .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
                     
+                    Section("デザイン(アルファベットのみ)"){
+                        SelectCustomFamilyView(design: $design)
+                    }.listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
+                    
                     
                     HStack{
                         
@@ -80,7 +86,7 @@ struct MainView: View {
                             NavigationLink(isActive: $isPresented) {
                                 DisplayTextView(text: text, selectedTextColor: selectedTextColor,selectedBackColor:selectedBackColor, weight: weight,design: design)
                             } label: {
-                                Text("Show")
+                                Text("SHOW")
                                     .padding()
                                     .frame(width:100)
                                     .background(Color.thema)
