@@ -31,14 +31,33 @@ enum FontFamilys:String,CaseIterable,Identifiable{
     case rounded = "ゴシック体"
     case serif = "明朝体"
     
-    var design: Font.Design {
+    var design: Font {
         switch self {
         case .monospaced:
-            return .monospaced
+            return .system(size: 110,design: .monospaced)
         case .rounded:
-            return .rounded
+            return .system(size: 110,design:.rounded)
         case .serif:
-            return .serif
+            return .system(size: 110,design:.serif)
+        }
+    }
+}
+
+enum FontCustomFamilys:String,CaseIterable,Identifiable{
+    var id:String { self.rawValue }
+    
+    case AcademyEngravedLetPlain = "白抜き"
+    case GillSans_UltraBold = "極太(boldのみ)"
+    case SnellRoundhand_Black = "崩し文字"
+    
+    var design: Font {
+        switch self {
+        case .AcademyEngravedLetPlain :
+            return .custom("AcademyEngravedLetPlain", size: 110)
+        case .GillSans_UltraBold:
+            return .custom("GillSans-UltraBold", size: 110)
+        case .SnellRoundhand_Black :
+            return .custom("SnellRoundhand-Black", size: 110)
         }
     }
 }

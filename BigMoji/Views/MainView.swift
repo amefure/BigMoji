@@ -14,7 +14,9 @@ struct MainView: View {
     @State var selectedTextColor:SelectColors = SelectColors.black
     @State var selectedBackColor:SelectColors = SelectColors.white
     @State var weight:FontWeights = .light
-    @State var design:FontFamilys = .rounded
+    @State var design:Font = FontFamilys.rounded.design
+    
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
     
     var body: some View {
         AvailableNavigationStack {
@@ -96,7 +98,7 @@ struct MainView: View {
                 }.cornerRadius(20) // List
                     .padding(.top,20)
                     .listStyle(.grouped)
-                    .shadow(color: Color.list,radius: 0, x: 0, y: 15)
+                    .shadow(color: colorScheme == .dark ? .black : Color.list,radius: 0, x: 0, y: 15)
                 
                 AdMobBannerView().frame(height: 60)
                 
