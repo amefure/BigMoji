@@ -15,7 +15,7 @@ class DeviceSizeViewModel {
     public let calendar = Calendar.current
     
     public var isSESize:Bool {
-        if deviceWidth < 400{
+        if deviceWidth < 376{
             return true
         }else{
             return false
