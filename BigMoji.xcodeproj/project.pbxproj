@@ -28,6 +28,7 @@
 		123008AE2A4BCAFA00A43ADF /* SelectWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008AD2A4BCAFA00A43ADF /* SelectWeightView.swift */; };
 		123008B02A4BD04400A43ADF /* SelectFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008AF2A4BD04400A43ADF /* SelectFamilyView.swift */; };
 		12C6F4B62A4CBB0B00EF06FA /* SelectCustomFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C6F4B52A4CBB0B00EF06FA /* SelectCustomFamilyView.swift */; };
+		12C6F4B82A4CC1B200EF06FA /* UserDefaultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */; };
 		2DAD490658AFA65E28A34D56 /* Pods_BigMojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */; };
 		3F5AAAAB35651F3838E6628D /* Pods_BigMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */; };
 		874E7CFCAF60E414AE341E45 /* Pods_BigMoji_BigMojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */; };
@@ -78,6 +79,7 @@
 		123008AD2A4BCAFA00A43ADF /* SelectWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWeightView.swift; sourceTree = "<group>"; };
 		123008AF2A4BD04400A43ADF /* SelectFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFamilyView.swift; sourceTree = "<group>"; };
 		12C6F4B52A4CBB0B00EF06FA /* SelectCustomFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCustomFamilyView.swift; sourceTree = "<group>"; };
+		12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewModel.swift; sourceTree = "<group>"; };
 		13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +226,7 @@
 			children = (
 				123008A52A4B222800A43ADF /* AdMobViewModels.swift */,
 				123008A92A4BA8DB00A43ADF /* DeviceSizeViewModel.swift */,
+				12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 				123008922A4AA4F900A43ADF /* MainView.swift in Sources */,
 				123008AE2A4BCAFA00A43ADF /* SelectWeightView.swift in Sources */,
 				123008AC2A4BC9C500A43ADF /* FontTypes.swift in Sources */,
+				12C6F4B82A4CC1B200EF06FA /* UserDefaultsViewModel.swift in Sources */,
 				123008B02A4BD04400A43ADF /* SelectFamilyView.swift in Sources */,
 				123008972A4ABB3B00A43ADF /* AvailableNavigationStack.swift in Sources */,
 				123008A22A4B03AB00A43ADF /* InputTextView.swift in Sources */,
