@@ -34,11 +34,11 @@ enum FontFamilys:String,CaseIterable,Identifiable{
     var design: Font {
         switch self {
         case .monospaced:
-            return .system(size: 110,design: .monospaced)
+            return .system(size: 400,design: .monospaced)
         case .rounded:
-            return .system(size: 110,design:.rounded)
+            return .system(size: 400,design:.rounded)
         case .serif:
-            return .system(size: 110,design:.serif)
+            return .system(size: 400,design:.serif)
         }
     }
 }
@@ -53,11 +53,11 @@ enum FontCustomFamilys:String,CaseIterable,Identifiable{
     var design: Font {
         switch self {
         case .AcademyEngravedLetPlain :
-            return .custom("AcademyEngravedLetPlain", size: 110)
+            return .custom("AcademyEngravedLetPlain", size: 400)
         case .GillSans_UltraBold:
-            return .custom("GillSans-UltraBold", size: 110)
+            return .custom("GillSans-UltraBold", size: 400)
         case .SnellRoundhand_Black :
-            return .custom("SnellRoundhand-Black", size: 110)
+            return .custom("SnellRoundhand-Black", size: 400)
         }
     }
 }

@@ -80,6 +80,7 @@
 		123008AF2A4BD04400A43ADF /* SelectFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFamilyView.swift; sourceTree = "<group>"; };
 		12C6F4B52A4CBB0B00EF06FA /* SelectCustomFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCustomFamilyView.swift; sourceTree = "<group>"; };
 		12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewModel.swift; sourceTree = "<group>"; };
+		12C6F4B92A4CCB6A00EF06FA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +146,7 @@
 				123008902A4A9F3100A43ADF /* Info.plist */,
 				123008A72A4B22F500A43ADF /* GoogleService-Info.plist */,
 				123008662A4A9B3C00A43ADF /* BigMojiApp.swift */,
+				12C6F4B92A4CCB6A00EF06FA /* README.md */,
 				123008A32A4B048300A43ADF /* Views */,
 				123008982A4ABF8900A43ADF /* Models */,
 				123008A42A4B220900A43ADF /* ViewModels */,
@@ -684,7 +686,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"BigMoji/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -720,7 +722,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"BigMoji/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
