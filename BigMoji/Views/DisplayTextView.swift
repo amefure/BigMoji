@@ -26,5 +26,11 @@ struct DisplayTextView: View {
             .foregroundColor(selectedTextColor != .custom ? selectedTextColor.color : Color(hexString:UserDefaultsViewModel().getFontColor()))
             .padding()
             .background(selectedBackColor != .custom ? selectedBackColor.color : Color(hexString: UserDefaultsViewModel().getBackColor()))
+            .onAppear{
+                // この画面表示中は画面のスリープを停止
+                UIApplication.shared.isIdleTimerDisabled = true
+            }.onDisappear{
+                UIApplication.shared.isIdleTimerDisabled = false
+            }
     }
 }

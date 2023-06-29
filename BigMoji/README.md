@@ -4,7 +4,7 @@
 - Language：Swift
 - Version：5.7.1
 - Xcode：14.2
-- URL：[App Store](https://apps.apple.com/jp/app/%E6%97%85time/id6449208868) 
+- URL：[App Store](https://apps.apple.com/jp/app/%E6%96%87%E5%AD%97%E6%8B%A1%E5%A4%A7%E3%82%A2%E3%83%97%E3%83%AA-bigmoji/id6450723687) 
 - Architecture：MVVM
 
 ### ライブラリ
