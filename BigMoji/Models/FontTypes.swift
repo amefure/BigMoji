@@ -13,7 +13,7 @@ enum FontWeights:String,CaseIterable,Identifiable{
     case light
     case bold
     
-    var weight: Font.Weight {
+    public var weight: Font.Weight {
         switch self {
         case .light:
             return .light
@@ -27,11 +27,22 @@ enum FontWeights:String,CaseIterable,Identifiable{
 enum FontFamilys:String,CaseIterable,Identifiable{
     var id:String { self.rawValue }
     
-    case monospaced = "スペース"
-    case rounded = "ゴシック体"
-    case serif = "明朝体"
+    case monospaced
+    case rounded
+    case serif
     
-    var design: Font {
+    public var rawValue: String {
+        switch self {
+        case .monospaced:
+            return L10n.monospaced
+        case .rounded:
+            return L10n.rounded
+        case .serif:
+            return L10n.serif
+        }
+    }
+    
+    public var design: Font {
         switch self {
         case .monospaced:
             return .system(size: 400,design: .monospaced)
@@ -46,11 +57,22 @@ enum FontFamilys:String,CaseIterable,Identifiable{
 enum FontCustomFamilys:String,CaseIterable,Identifiable{
     var id:String { self.rawValue }
     
-    case AcademyEngravedLetPlain = "白抜き"
-    case GillSans_UltraBold = "極太(bold)"
-    case SnellRoundhand_Black = "崩し文字"
+    case AcademyEngravedLetPlain
+    case GillSans_UltraBold
+    case SnellRoundhand_Black
     
-    var design: Font {
+    public var rawValue: String {
+        switch self {
+        case .AcademyEngravedLetPlain :
+            return L10n.academyEngravedLetPlain
+        case .GillSans_UltraBold:
+            return L10n.gillsansUltrabold
+        case .SnellRoundhand_Black :
+            return L10n.snellRoundhandBlack
+        }
+    }
+    
+    public var design: Font {
         switch self {
         case .AcademyEngravedLetPlain :
             return .custom("AcademyEngravedLetPlain", size: 400)

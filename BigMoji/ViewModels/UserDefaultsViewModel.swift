@@ -26,4 +26,12 @@ class UserDefaultsViewModel {
     public func getBackColor() -> String{
         userDefault.object(forKey: "CustomBackColor") as! String
     }
+    
+    public func setCountInterstitial(_ count: Int) {
+        userDefault.set(count, forKey: "CountInterstitial")
+    }
+    
+    public func getCountInterstitial() -> Int {
+        return userDefault.integer(forKey: "CountInterstitial")
+    }
 }

@@ -36,7 +36,7 @@ struct ScrollSelectColorsView: View {
                         }
                     }
                 }
-                ColorPicker("色の選択", selection: $customColor)
+                ColorPicker(L10n.colorPicker, selection: $customColor)
                     .labelsHidden()
                     .onChange(of: customColor) { newColor in
                         selectedColor = .white

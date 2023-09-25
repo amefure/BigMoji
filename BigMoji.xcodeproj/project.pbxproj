@@ -29,6 +29,9 @@
 		123008B02A4BD04400A43ADF /* SelectFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123008AF2A4BD04400A43ADF /* SelectFamilyView.swift */; };
 		12C6F4B62A4CBB0B00EF06FA /* SelectCustomFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C6F4B52A4CBB0B00EF06FA /* SelectCustomFamilyView.swift */; };
 		12C6F4B82A4CC1B200EF06FA /* UserDefaultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */; };
+		12CE3BA92ABF0B8E00162B11 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12CE3BAB2ABF0B8E00162B11 /* Localizable.strings */; };
+		12CE3BAE2ABF0E4A00162B11 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE3BAD2ABF0E4A00162B11 /* Strings.swift */; };
+		12CE3BB02ABF123600162B11 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE3BAF2ABF123600162B11 /* RootViewModel.swift */; };
 		2DAD490658AFA65E28A34D56 /* Pods_BigMojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */; };
 		3F5AAAAB35651F3838E6628D /* Pods_BigMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */; };
 		874E7CFCAF60E414AE341E45 /* Pods_BigMoji_BigMojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4014C400154E436B5855ED1 /* Pods_BigMoji_BigMojiUITests.framework */; };
@@ -81,6 +84,10 @@
 		12C6F4B52A4CBB0B00EF06FA /* SelectCustomFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCustomFamilyView.swift; sourceTree = "<group>"; };
 		12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewModel.swift; sourceTree = "<group>"; };
 		12C6F4B92A4CCB6A00EF06FA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		12CE3BAA2ABF0B8E00162B11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		12CE3BAC2ABF0B9200162B11 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		12CE3BAD2ABF0E4A00162B11 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		12CE3BAF2ABF123600162B11 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
 		13832FCBB5647BD26EDF45B8 /* Pods_BigMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC72EB386455A74C62EE126 /* Pods-BigMoji-BigMojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigMoji-BigMojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigMoji-BigMojiUITests/Pods-BigMoji-BigMojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4CA334291CB20678DA8227 /* Pods_BigMojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigMojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,13 +152,13 @@
 			children = (
 				123008902A4A9F3100A43ADF /* Info.plist */,
 				123008A72A4B22F500A43ADF /* GoogleService-Info.plist */,
-				123008662A4A9B3C00A43ADF /* BigMojiApp.swift */,
 				12C6F4B92A4CCB6A00EF06FA /* README.md */,
+				12CE3BA62ABF0B6600162B11 /* Generated */,
+				12CE3BA52ABF0B5D00162B11 /* Resources */,
 				123008A32A4B048300A43ADF /* Views */,
 				123008982A4ABF8900A43ADF /* Models */,
 				123008A42A4B220900A43ADF /* ViewModels */,
 				123008932A4AB5A900A43ADF /* Extensions */,
-				1230086A2A4A9B3D00A43ADF /* Assets.xcassets */,
 				1230086C2A4A9B3D00A43ADF /* Preview Content */,
 			);
 			path = BigMoji;
@@ -216,6 +223,7 @@
 		123008A32A4B048300A43ADF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				123008662A4A9B3C00A43ADF /* BigMojiApp.swift */,
 				123008912A4AA4F900A43ADF /* MainView.swift */,
 				123008682A4A9B3C00A43ADF /* DisplayTextView.swift */,
 				1230089E2A4B018C00A43ADF /* ViewComponents */,
@@ -229,8 +237,26 @@
 				123008A52A4B222800A43ADF /* AdMobViewModels.swift */,
 				123008A92A4BA8DB00A43ADF /* DeviceSizeViewModel.swift */,
 				12C6F4B72A4CC1B200EF06FA /* UserDefaultsViewModel.swift */,
+				12CE3BAF2ABF123600162B11 /* RootViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		12CE3BA52ABF0B5D00162B11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1230086A2A4A9B3D00A43ADF /* Assets.xcassets */,
+				12CE3BAB2ABF0B8E00162B11 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12CE3BA62ABF0B6600162B11 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				12CE3BAD2ABF0E4A00162B11 /* Strings.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		3DD90BB8213749F03F808CEA /* Pods */ = {
@@ -348,6 +374,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 1230085A2A4A9B3C00A43ADF;
 			productRefGroup = 123008642A4A9B3C00A43ADF /* Products */;
@@ -367,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1230086E2A4A9B3D00A43ADF /* Preview Assets.xcassets in Resources */,
+				12CE3BA92ABF0B8E00162B11 /* Localizable.strings in Resources */,
 				1230086B2A4A9B3D00A43ADF /* Assets.xcassets in Resources */,
 				123008A82A4B22F500A43ADF /* GoogleService-Info.plist in Resources */,
 			);
@@ -525,9 +553,11 @@
 				12C6F4B82A4CC1B200EF06FA /* UserDefaultsViewModel.swift in Sources */,
 				123008B02A4BD04400A43ADF /* SelectFamilyView.swift in Sources */,
 				123008972A4ABB3B00A43ADF /* AvailableNavigationStack.swift in Sources */,
+				12CE3BAE2ABF0E4A00162B11 /* Strings.swift in Sources */,
 				123008A22A4B03AB00A43ADF /* InputTextView.swift in Sources */,
 				123008672A4A9B3C00A43ADF /* BigMojiApp.swift in Sources */,
 				123008AA2A4BA8DB00A43ADF /* DeviceSizeViewModel.swift in Sources */,
+				12CE3BB02ABF123600162B11 /* RootViewModel.swift in Sources */,
 				1230089D2A4B012C00A43ADF /* ScrollSelectColorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +593,18 @@
 			targetProxy = 1230087E2A4A9B3D00A43ADF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12CE3BAB2ABF0B8E00162B11 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CE3BAA2ABF0B8E00162B11 /* en */,
+				12CE3BAC2ABF0B9200162B11 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		123008852A4A9B3D00A43ADF /* Debug */ = {
@@ -686,7 +728,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"BigMoji/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -703,7 +745,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.BigMoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -722,7 +764,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"BigMoji/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -739,7 +781,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.BigMoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

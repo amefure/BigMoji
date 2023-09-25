@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  BigMoji
+
+  Created by t&a on 2023/09/23.
+  
+ 
+*/
+
+// MARK: - List > Section
+"field_name_text" = "Text";
+"field_name_text_color" = "テキストカラー";
+"field_name_back_color" = "バックカラー";
+"field_name_font" = "フォント";
+"field_name_design" = "デザイン";
+"field_name_design2" = "デザイン(アルファベットのみ)";
+
+// MARK: - Button
+"show_button" = "SHOW";
+"close_button" = "閉じる";
+"color_picker" = "色の選択";
+
+"empty_alert_title" = "文字を入力してください";
+
+// MARK: - FontFamilys
+"monospaced" = "スペース";
+"rounded" = "ゴシック体";
+"serif" = "明朝体";
+
+// MARK: - FontCustomFamilys
+"academy_engraved_let_plain" = "白抜き";
+"gillsans_ultrabold" = "極太(bold)";
+"snell_roundhand_black" = "崩し文字";

@@ -26,7 +26,7 @@ struct InputTextView: View {
             .toolbar {
                 ToolbarItemGroup(placement: .keyboard) {
                     Spacer()
-                    Button("閉じる") {
+                    Button(L10n.closeButton) {
                         isActive = false
                     }
                 }

@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  BigMoji
+
+  Created by t&a on 2023/09/23.
+  
+*/
+// MARK: - List > Section
+"field_name_text" = "Text";
+"field_name_text_color" = "TextColor";
+"field_name_back_color" = "BackColor";
+"field_name_font" = "Font";
+"field_name_design" = "Design1";
+"field_name_design2" = "Design2";
+
+// MARK: - Button
+"show_button" = "SHOW";
+"close_button" = "Close";
+"color_picker" = "Color Picker";
+
+"empty_alert_title" = "Please Input Text";
+
+// MARK: - FontFamilys
+"monospaced" = "monospaced";
+"rounded" = "rounded";
+"serif" = "serif";
+
+// MARK: - FontCustomFamilys
+"academy_engraved_let_plain" = "white";
+"gillsans_ultrabold" = "bold";
+"snell_roundhand_black" = "broken";
